@@ -9,4 +9,4 @@
 
 <h1>Combined (mine -> peer)</h1>
 <label>Input <input bind:value={raw} /></label>
-<p>Output: {output.join('')}</p>
+<p>Output: {output.join(' ')}</p>
