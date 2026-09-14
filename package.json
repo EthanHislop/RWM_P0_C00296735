@@ -3,6 +3,6 @@
     "version": "0.1.1",
     "type": "module",
     "exports": {
-        ".": "./Sprint1/src/lib/filters.js"
+        ".": "./Sprint1/src/lib/filters/remove_odd_numbers.ts"
     }
 }
