@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { combinedFilter } from "$lib/combined/combined";
+    import { combinedFilter } from "$lib/filters/combined/combined";
     let raw = $state('1 3 7 9 4');
     let input = $derived(
         raw.trim().split(/\s+/).filter(Boolean).map(Number)
