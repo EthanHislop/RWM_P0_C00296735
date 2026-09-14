@@ -12,7 +12,7 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"test:unit": "vitest",
 		"test": "npm run test:unit -- --run",
-		"emit:results": "node scripts/emit-results.mjs"
+		"emit:results": "tsx scripts/emit-results.mjs"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^7.0.1",
@@ -23,6 +23,7 @@
 		"playwright": "^1.60.0",
 		"svelte": "^5.56.1",
 		"svelte-check": "^4.6.0",
+		"tsx": "^4.23.13",
 		"typescript": "^6.0.3",
 		"vite": "^8.0.16",
 		"vitest": "^4.1.11",
