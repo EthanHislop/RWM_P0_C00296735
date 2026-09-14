@@ -14,7 +14,7 @@ describe('Odd numbers filter', () => {
     });
     it('Removes odd numbers 3', () => {
         const input = [2, 5, 8, 21, 43, 64];
-        const expected = [2, 8, 21, 64];
+        const expected = [2, 8, 64];
         expect(odd_numbers(input)).toEqual(expected);
     });
 });
